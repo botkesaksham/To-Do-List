@@ -1,0 +1,79 @@
+*{
+    margin: 0 0 0 0 ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    background-color: rgb(0, 32, 32);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.add{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(52, 52, 168);
+    border-radius: 0px 10px 10px 0px;
+    border:3px solid black
+}
+
+.task{
+    display: flex;
+    height: 2rem;
+    padding-top: 1rem;
+}
+
+.enter-task{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+.addtask{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.newtask{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.newtask li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;;
+    width: 10rem;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid black;
+}
+
+.deletebtn{
+    color: red;
+    border: 2px solid red;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.checkbtn{
+    color:green;
+    border: 2px solid green;
+}
